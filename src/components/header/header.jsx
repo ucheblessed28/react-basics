@@ -1,11 +1,21 @@
+import Logo from '../logo/logo';
 import './header.css';
+
+
+
 function Header() {
 
-
-
     return (
-        <section className='home'>
-            <
-        </section>
+        <header className='main-header'>
+            <Logo/>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+            
+        </header>
     )
 }
+
+export default Header

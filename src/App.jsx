@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/header/header'
+import Hero from './components/hero/hero'
+
 
 function App() {
 
   return (
     <section className='home'>
-     <div>
-       <h1>Welcome to our React.js Course</h1>
-       <p>I promise that you won&apos;t regret it</p>
-     </div>
+     <Header/>
+     <Hero/>
     </section>
   )
 }
